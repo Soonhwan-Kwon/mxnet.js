@@ -2,7 +2,7 @@
 THIS_DIR=$(cd `dirname $0`; pwd)
 
 # MXNet checkout directory
-MXNET=mxnet
+MXNET=incubator-mxnet
 
 # Build
 echo "Rebuild libmxnet_predict.js from MXNet with emscripten"
